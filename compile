@@ -1,0 +1,6 @@
+#!/bin/bash
+
+flex trabalho.lex
+bison -d -v trabalho.y
+gcc lex.yy.c trabalho.tab.c
+

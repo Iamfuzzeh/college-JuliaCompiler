@@ -1,0 +1,21 @@
+main:
+   addi  $t0,$t0,3
+   mult  $t0,$t0,5
+   add   $t1,$t1,$t1
+   addi  $t1,$t1,5
+   add  $t2,$t2,$t2
+   div  $t2,$t2,8
+   addi  $t3,$t3,69
+   mult  $t3,$t3,55
+   add   $t4,$t4,$t3
+   addi  $t4,$t4,0.000000
+   add  $t5,$t5,$t4
+   div  $t5,$t5,10
+   add  $t6,$t6,$t5
+   mult  $t6,$t6,2
+   la  $t7, $t6
+   li  $t8, 5000
+   add  $t9,$t9,$t7
+   mult  $t9,$t9,$t8
+   sgt  $t10,$t10,$t9
+   sgt  $t10,$t10,$t10
